@@ -1,0 +1,20 @@
+/******************************************************************************
+Overflow
+*******************************************************************************/
+#include <stdio.h>
+
+int main()
+{
+    int numeroUno;
+    int numeroDos;
+    int resultado;
+    
+    numeroUno = 2147483647;
+    numeroDos = 1;
+    
+    resultado = numeroUno+numeroDos;
+    printf("el resultado es %d",resultado);
+
+    return 0;
+}
+
